@@ -1,0 +1,18 @@
+<h1>{{ title }}</h1>
+<h2>{{ secondTitle }}</h2>
+<p>This is a bare-bones template.</p>
+
+<p>The first cool list:</p>
+
+<ul>
+  {% for person in people %}
+  <li>{{ person.name }}</li>
+  {% endfor %}
+</ul>
+
+<p>Another cool list:</p>
+<ul>
+  {% for something in things %}
+  <li>{{ something.property }}</li>
+  {% endfor %}
+</ul>
